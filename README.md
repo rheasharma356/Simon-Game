@@ -17,5 +17,7 @@ However, if the player fails to reproduce the correct sequence, they lose the ga
 
 At that point, we display their score, represented by the count of successfully completed sequences, and present a 'Play Again' button for another attempt.
 
+Visit this Website to Play!: https://rheasharma356.github.io/Simon-Game/
+
 
 
