@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@900&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container"> <!-- . + class name + tab -->
+    <p id="result" class="hide"></p><!-- p#result.hide emmet abbreviation-->
+    <div id="SectionName" style="display:none">
+    <p>How to Play:<br>To play, click on the color that lights up.<br>After each successful round, the game will add another color to the sequence.<br>Click the colors in the right order to get more points!</p>
+    
+    </div>
+    <button onclick="ShowAndHide()">How to Play</button>
+    <button id="start">Start Game</button>
+    
+    </div>
+
+    
+
+    <div class="wrapper hide">
+       
+        <div class="simon">
+            <!-- .color$*4 .color-part+ tab-->
+            <div class="color1 color-part"></div>
+            <div class="color2 color-part"></div>
+            <div class="color3 color-part"></div>
+            <div class="color4 color-part"></div>
+            <div id="count">0</div>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="script.js"></script>
+
+</body>
+</html>
